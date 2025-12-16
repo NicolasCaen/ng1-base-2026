@@ -1,0 +1,23 @@
+/*
+Theme Name: ng1-base
+Theme URI:
+Author: GEHIN NIcolas
+Author URI:
+Description: Thème ng1@base
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ng1-base
+*/
+
+// @import 'mixins';
+// @use remplace l'ancienne version 
+// pour ne pas utiliser de prefix lors de son utilisation  utilise le as *;
+// sinon nous devrions écrire par exemple mixins.m(600){}
+
+
+@use 'mixins' as *;
+@use 'global';
+@use 'blocks/root';
+    
+
